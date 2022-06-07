@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cat King</string>
+    <string name="bottom_nav_title_home">Home</string>
+    <string name="bottom_nav_title_wallet">Wallet</string>
+    <string name="name_text">Developed with love by the <b>Cat King</b> team.</string>
+    <string name="bottom_nav_title_gallery">Gallery</string>
+</resources>

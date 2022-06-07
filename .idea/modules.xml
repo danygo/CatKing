@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cat_King.iml" filepath="$PROJECT_DIR$/.idea/modules/Cat_King.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Cat_King.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Cat_King.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Cat_King.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Cat_King.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Cat_King.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Cat_King.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Cat_King.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Cat_King.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

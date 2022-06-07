@@ -1,0 +1,77 @@
+<resources>
+
+    <style name="Theme.CatKing" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="bottomSheetDialogTheme">
+            @style/ThemeOverlay.MaterialComponents.BottomSheetDialog.Rounded
+        </item>
+        <item name="bottomNavigationStyle">
+            @style/Widget.MaterialComponents.BottomNavigationView.Dark
+        </item>
+    </style>
+
+    <style name="Theme.CatKing.LauncherTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="WhiteTheme">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="FullScreenDialogTheme" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowAnimationStyle">@style/OpenFromBottomAnimation</item>
+    </style>
+
+    <style name="ThemeOverlay.MaterialComponents.BottomSheetDialog.Rounded" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowAnimationStyle">@style/OpenFromBottomAnimation</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/shape_rounded_background_top</item>
+        <item name="android:backgroundTint">@color/darkGrey</item>
+    </style>
+
+    <style name="OpenFromBottomAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_enter_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_exit_to_bottom</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.BottomNavigationView.Dark" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@drawable/shape_rounded_bottom_nav_background</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="itemIconTint">@drawable/mtrl_navigation_bar_item_tint</item>
+        <item name="itemTextColor">@drawable/mtrl_navigation_bar_item_tint</item>
+    </style>
+
+    <style name="Base.Theme.AppCompat.CheckBox">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorSecondary">@color/lightGrey</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button.IconOnly">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">12dp</item>
+        <item name="android:minHeight">12dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Chip.Choice.SingleChoice">
+        <item name="chipMinHeight">24dp</item>
+        <item name="chipStartPadding">12dp</item>
+        <item name="chipEndPadding">12dp</item>
+        <item name="chipIconEnabled">false</item>
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="chipStrokeColor">@color/colorPrimary</item>
+        <item name="chipBackgroundColor">@color/selector_chip_background_color</item>
+        <item name="android:textColor">@color/selector_chip_text_color</item>
+    </style>
+</resources>

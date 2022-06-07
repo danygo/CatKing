@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:overScrollMode="never">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:paddingBottom="88dp">
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_copy"
+            app:layout_constraintBottom_toBottomOf="@id/more_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/more_button" />
+
+        <ImageButton
+            android:id="@+id/more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@drawable/ic_more"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/bnb_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/bnb"
+            app:layout_constraintEnd_toStartOf="@id/cking_card"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cking_card" />
+
+        <TextView
+            android:id="@+id/bnb_amount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_rounded_background"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:text="----"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/bnb_image"
+            app:layout_constraintStart_toStartOf="@+id/bnb_image"
+            app:layout_constraintTop_toBottomOf="@id/bnb_image" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cking_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/busd_image"
+            app:layout_constraintStart_toEndOf="@+id/bnb_image"
+            app:layout_constraintTop_toBottomOf="@id/more_button">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:src="@drawable/logo" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/cking_amount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_rounded_background"
+            android:backgroundTint="@color/colorPrimary"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:text="----"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/cking_card"
+            app:layout_constraintStart_toStartOf="@+id/cking_card"
+            app:layout_constraintTop_toBottomOf="@+id/cking_card" />
+
+        <ImageView
+            android:id="@+id/busd_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/busd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cking_card"
+            app:layout_constraintTop_toTopOf="@+id/cking_card" />
+
+        <TextView
+            android:id="@+id/busd_amount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_rounded_background"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:text="----"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/busd_image"
+            app:layout_constraintStart_toStartOf="@+id/busd_image"
+            app:layout_constraintTop_toBottomOf="@+id/busd_image" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/token_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:overScrollMode="never"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintTop_toBottomOf="@id/bnb_amount_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

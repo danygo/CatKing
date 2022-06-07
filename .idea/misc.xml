@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable-anydpi/ic_close.xml" value="0.223" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable-anydpi/ic_copy.xml" value="0.203" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable-anydpi/ic_gallery.xml" value="0.2385" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable-anydpi/ic_home.xml" value="0.124" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable-anydpi/ic_more.xml" value="0.203" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable-anydpi/ic_wallet.xml" value="0.124" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable/mtrl_navigation_bar_item_tint.xml" value="0.124" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable/shape_circle.xml" value="0.203" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable/shape_rounded_background.xml" value="0.124" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable/shape_rounded_background_top.xml" value="0.2385" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable/shape_rounded_bottom_nav_background.xml" value="0.2385" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/drawable/splash_screen.xml" value="0.2385" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/fragment_cking.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/fragment_ethereum_address.xml" value="0.264" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/fragment_marketing.xml" value="0.4" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/fragment_wallet.xml" value="0.264" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/item_expense.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/item_token.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/layout/item_transaction.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/menu/account_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2385" />
+        <entry key="..\:/Users/Daniel/Desktop/CatKing/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2385" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
